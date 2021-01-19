@@ -1,0 +1,23 @@
+$Dark-Blue: hsl(209, 23%, 22%);
+$Dark-Mode-Background: hsl(207, 26%, 17%);
+$Light-Mode-Text: hsl(200, 15%, 8%);
+$Dark-Gray-LightMode-Input: hsl(0, 0%, 52%);
+$Very-Light-Gray-Light-Mode-Background: hsl(0, 0%, 98%);
+$White-DarkMode-Text-and-Light-Mode-Elements: hsl(0, 0%, 100%);
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+h1 {
+  font-size: 15px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: $Dark-Blue;
+}
