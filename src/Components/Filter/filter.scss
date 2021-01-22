@@ -8,14 +8,20 @@
   justify-content: space-around;
   width: 60%;
   font-size: 12px;
-  select {
-    background-color: $Dark-Blue;
-    width: 9%;
-    border: none;
-    position: relative;
-    options {
-      position: absolute;
-      width: 100%;
-    }
+  .fas {
+    font-size: 25px;
+  }
+}
+.region {
+  display: none;
+}
+.region-display {
+  background-color: $Dark-Blue;
+  width: 60%;
+  margin: 10px 0px;
+  padding: 10px;
+  border-radius: 0.5em;
+  ul {
+    list-style-type: none;
   }
 }
