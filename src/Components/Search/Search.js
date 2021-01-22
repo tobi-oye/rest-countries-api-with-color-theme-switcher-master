@@ -11,7 +11,7 @@ const Search = () => {
           newSearchState(event.target.value.trim());
         }}
         value={prevSearchState}
-        placeholder=" Q Search for a country"
+        placeholder="  Search for a country"
       />
     </div>
   );
